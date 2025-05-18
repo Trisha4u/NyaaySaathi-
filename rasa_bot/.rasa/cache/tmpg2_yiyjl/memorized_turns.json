@@ -1,0 +1,21 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVGak5BbW1sQBgHU39": "utter_help",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVGak5BcQ5AqwSh/5YAO2hZjM=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fklmWX5ScGl+UmZ5RUlxbGwsAc34g6A==": "utter_divorce_rights",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fklmWX5ScGl+UmZ5RUlxLwMDSkpLUInQ9RJkbCwCd90Mi": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmluQX55alAsUiC/KTM8oKa6tjQUA/Ggirw==": "utter_empowerment_rights",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmluQX55alAsUiC/KTM8oKa4lYGhpSUlqETZ9RJsfCwAFbUh3": "action_listen",
+    "eJwtisEJwCAMAFdxgE7gKqWEIIGKGiWx7UOyewPt7467fdkW1hC6AdPMnWNYHwBjoxh+qVknsb+XkviT2XV61gJPlzIqJoITBVWbF7PjBUGSI2k=": "utter_workplace_harassment",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fnl+UXZCTmJwan5FYlFhcnAuUqSVgbGlJSWoRdp0k2BELALQFSqU=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fkl9eVBmfk1heWxsLANRnHuQ=": "utter_dowry_law",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fkl9eVBmfk1heS8Cs0pKS1CIk5YRMiwUA03o9Fg==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fUJRfkFpUUhlflJmeUVJcWxsLAJcjIYE=": "utter_property_rights",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB1fUJRfkFpUUhlflJmeUVJcS8DE0pKS1CIMTcSZHAsAi41E7Q==": "action_listen",
+    "eJwtitEJwCAMBVdxgE7gKqUEse8jVGMxqT/i7g20f3fc7XNtYd4dg1I2bhLD/IAkVcTwS2E1iL+PovvD4mqe9aKzVahxpsGtQDLWOl7YRSIY": "utter_domestic_violence",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fkp+bWlySmRxflpmfk5qXnFpLwMzSkpLUIizaiDU9FgAOfEay": "action_listen"
+  }
+}

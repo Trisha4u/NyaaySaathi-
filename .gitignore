@@ -1,0 +1,53 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Node.js and general
+node_modules/
+package-lock.json
+*.log
+.env
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Backend specific
+/backend/node_modules/
+/backend/*.log
+
+# Frontend specific
+/frontend/node_modules/
+/frontend/build/
+
+# Rasa specific
+/rasa_bot/venv/
+/rasa_bot/models/
+/rasa_bot/*.log
+
+# Temporary files
+temp/
+tmp/
+*.pyc # Python bytecode
+
+# Node.js
+node_modules/
+.env

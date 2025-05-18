@@ -1,0 +1,60 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - नमस्ते
+    - हाय
+
+- intent: help
+  examples: |
+    - help me
+    - what can you do
+    - सहायता करें
+    - आप क्या कर सकते हैं
+
+- intent: ask_divorce_rights
+  examples: |
+    - tell me about divorce rights
+    - women's divorce rights
+    - महिलाओं के तलाक के अधिकार क्या हैं?
+    - तलाक के नियम क्या हैं?
+
+- intent: ask_dowry_law
+  examples: |
+    - what is the dowry law
+    - dowry act details
+    - दहेज कानून क्या है?
+    - IPC 498A के बारे में बताएं
+
+- intent: ask_domestic_violence
+  examples: |
+    - what is domestic violence law
+    - घरेलू हिंसा के खिलाफ कानून
+    - how to complain against domestic abuse
+    - महिलाओं की सुरक्षा के लिए कानून
+    - What to do when husband hits 
+
+- intent: ask_property_rights
+  examples: |
+    - women's rights in property
+    - property rights for daughters
+    - संपत्ति में महिलाओं का अधिकार
+    - बेटी का पैतृक संपत्ति में हक
+
+- intent: ask_workplace_harassment
+  examples: |
+    - POSH Act details
+    - sexual harassment at work
+    - कार्यस्थल पर उत्पीड़न के खिलाफ कानून
+    - internal complaints committee
+
+- intent: ask_empowerment_rights
+  examples: |
+    - schemes for women's empowerment
+    - महिला सशक्तिकरण योजनाएं
+    - Beti Bachao Beti Padhao
+    - सरकार की योजनाएं महिलाओं के लिए

@@ -1,0 +1,39 @@
+version: "3.1"
+
+stories:
+- story: User greets and asks for help
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: help
+    - action: utter_help
+
+- story: Ask about divorce rights
+  steps:
+    - intent: ask_divorce_rights
+    - action: utter_divorce_rights
+
+- story: Ask about dowry law
+  steps:
+    - intent: ask_dowry_law
+    - action: utter_dowry_law
+
+- story: Ask about domestic violence
+  steps:
+    - intent: ask_domestic_violence
+    - action: utter_domestic_violence
+
+- story: Ask about property rights
+  steps:
+    - intent: ask_property_rights
+    - action: utter_property_rights
+
+- story: Ask about workplace harassment
+  steps:
+    - intent: ask_workplace_harassment
+    - action: utter_workplace_harassment
+
+- story: Ask about empowerment schemes
+  steps:
+    - intent: ask_empowerment_rights
+    - action: utter_empowerment_rights

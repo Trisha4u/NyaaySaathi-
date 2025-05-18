@@ -1,0 +1,52 @@
+{
+  "type": "MaxHistoryTrackerFeaturizer",
+  "state_featurizer": {
+    "action_texts": [],
+    "entity_tag_specs": [],
+    "feature_states": {
+      "intent": {
+        "ask_divorce_rights": 0,
+        "ask_domestic_violence": 1,
+        "ask_dowry_law": 2,
+        "ask_empowerment_rights": 3,
+        "ask_property_rights": 4,
+        "ask_workplace_harassment": 5,
+        "back": 6,
+        "greet": 7,
+        "help": 8,
+        "nlu_fallback": 9,
+        "out_of_scope": 10,
+        "restart": 11,
+        "session_start": 12
+      },
+      "action_name": {
+        "action_listen": 0,
+        "action_restart": 1,
+        "action_session_start": 2,
+        "action_default_fallback": 3,
+        "action_deactivate_loop": 4,
+        "action_revert_fallback_events": 5,
+        "action_default_ask_affirmation": 6,
+        "action_default_ask_rephrase": 7,
+        "action_two_stage_fallback": 8,
+        "action_unlikely_intent": 9,
+        "action_back": 10,
+        "...": 11,
+        "action_extract_slots": 12,
+        "utter_divorce_rights": 13,
+        "utter_domestic_violence": 14,
+        "utter_dowry_law": 15,
+        "utter_empowerment_rights": 16,
+        "utter_greet": 17,
+        "utter_help": 18,
+        "utter_property_rights": 19,
+        "utter_workplace_harassment": 20
+      },
+      "entities": {},
+      "slots": {},
+      "active_loop": {}
+    }
+  },
+  "remove_duplicates": true,
+  "max_history": 5
+}

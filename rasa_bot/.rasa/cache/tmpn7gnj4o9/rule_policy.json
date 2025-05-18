@@ -1,0 +1,30 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_divorce_rights\"}}]": "utter_divorce_rights",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_divorce_rights\"}}, {\"prev_action\": {\"action_name\": \"utter_divorce_rights\"}, \"user\": {\"intent\": \"ask_divorce_rights\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_dowry_law\"}}]": "utter_dowry_law",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_dowry_law\"}}, {\"prev_action\": {\"action_name\": \"utter_dowry_law\"}, \"user\": {\"intent\": \"ask_dowry_law\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_workplace_harassment\"}}]": "utter_workplace_harassment",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_workplace_harassment\"}}, {\"prev_action\": {\"action_name\": \"utter_workplace_harassment\"}, \"user\": {\"intent\": \"ask_workplace_harassment\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_property_rights\"}}]": "utter_property_rights",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_property_rights\"}}, {\"prev_action\": {\"action_name\": \"utter_property_rights\"}, \"user\": {\"intent\": \"ask_property_rights\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"help\"}}]": "utter_help",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"help\"}}, {\"prev_action\": {\"action_name\": \"utter_help\"}, \"user\": {\"intent\": \"help\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_empowerment_rights\"}}]": "utter_empowerment_rights",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_empowerment_rights\"}}, {\"prev_action\": {\"action_name\": \"utter_empowerment_rights\"}, \"user\": {\"intent\": \"ask_empowerment_rights\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_domestic_violence\"}}]": "utter_domestic_violence",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_domestic_violence\"}}, {\"prev_action\": {\"action_name\": \"utter_domestic_violence\"}, \"user\": {\"intent\": \"ask_domestic_violence\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "predicting default action with intent back"
+    ]
+  }
+}

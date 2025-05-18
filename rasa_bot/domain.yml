@@ -1,0 +1,103 @@
+version: '3.1'
+
+intents:
+  - greet
+  - help
+  - ask_divorce_rights
+  - ask_dowry_law
+  - ask_domestic_violence
+  - ask_property_rights
+  - ask_workplace_harassment
+  - ask_empowerment_rights
+
+responses:
+
+  utter_greet:
+    - text: |
+        🙏 Hello! I'm **NyayaSaathi**, your legal rights assistant.  
+        👩‍⚖️ Ask me about women's rights like divorce, dowry, violence laws, and more.  
+        🙋‍♀️ नमस्ते! मैं **न्यायसाथी** हूं – आपकी कानूनी सहायक। महिलाओं के अधिकारों से जुड़े सवाल पूछें।
+
+  utter_help:
+    - text: |
+        I can guide you on topics like:
+        🔹 Divorce Rights  
+        🔹 Dowry Laws  
+        🔹 Domestic Violence Act  
+        🔹 Property Rights  
+        🔹 Workplace Harassment (POSH Act)  
+        🔹 Empowerment Schemes for Women  
+        👉 Try: `"Tell me about dowry law"` or `"महिलाओं के तलाक के अधिकार क्या हैं?"`
+
+  utter_divorce_rights:
+    - text: |
+        💔 **Divorce Rights in India:**  
+        👩‍⚖️ Women can file for divorce based on:
+        - Cruelty (mental or physical)  
+        - Adultery  
+        - Desertion or conversion  
+        ✅ Women are also entitled to:
+        - Maintenance/alimony  
+        - Custody of children  
+        📖 [More Info on Divorce Rights](https://blog.ipleaders.in/legal-rights-of-women-after-divorce-in-india/)
+        🗣️ महिलाएं अत्याचार, परित्याग, या बेवफाई के आधार पर तलाक ले सकती हैं।
+
+  utter_dowry_law:
+    - text: |
+        🚫 **Dowry Prohibition Act, 1961**  
+        👉 Taking or giving dowry is a punishable offence.  
+        📌 File complaint under **IPC 498A** for harassment or cruelty.  
+        📖 [Full Details on Dowry Law](https://www.legalserviceindia.com/legal/article-3205-dowry-laws-in-india.html)  
+        💬 दहेज लेना देना अपराध है। शिकायत दर्ज करें IPC 498A के तहत।
+
+  utter_domestic_violence:
+    - text: |
+        🛡️ **Protection of Women from Domestic Violence Act, 2005**  
+        ⚖️ Provides legal protection and shelter to victims of:
+        - Physical abuse  
+        - Emotional/verbal abuse  
+        - Economic abuse  
+        📌 Women can get **Protection Orders**, **Monetary Relief**, and **Residence Orders**.  
+        📖 [View the Act PDF](https://www.indiacode.nic.in/bitstream/123456789/2027/1/A2005-43.pdf)  
+        📞 घरेलू हिंसा की शिकायत पुलिस या महिला हेल्पलाइन के माध्यम से की जा सकती है।
+
+  utter_property_rights:
+    - text: |
+        🏠 **Equal Property Rights for Women**  
+        👩‍👧 Under **Hindu Succession Act**, daughters have **equal rights** in:
+        - Ancestral property  
+        - Self-acquired parental property  
+        🏛️ After the 2005 amendment, daughters are coparceners by birth.  
+        📖 [Read about Property Rights](https://www.livelaw.in/law-firms/articles/daughters-rights-in-ancestral-property-151594)  
+        ✅ बेटियों को पिता की संपत्ति में समान अधिकार प्राप्त हैं।
+
+  utter_workplace_harassment:
+    - text: |
+        👩‍💼 **POSH Act, 2013** (Sexual Harassment at Workplace Law)  
+        ⚖️ Every company with 10+ employees must form an **Internal Complaints Committee (ICC)**.  
+        👁️‍🗨️ Women can complain:
+        - Directly to ICC  
+        - To the Local Complaints Committee (LCC)  
+        📖 [Read POSH Act Details](https://wcd.nic.in/act/sexual-harassment-women-workplace-prevention-prohibition-and-redressal-act-2013)  
+        🙅‍♀️ कार्यस्थल पर उत्पीड़न की शिकायत POSH अधिनियम के तहत की जा सकती है।
+
+  utter_empowerment_rights:
+    - text: |
+        💪 **Women Empowerment Schemes**  
+        ✅ Beti Bachao Beti Padhao  
+        ✅ Ujjwala Yojana  
+        ✅ One-Stop Centres for support  
+        ✅ Sukanya Samriddhi Yojana  
+        👓 Designed to promote education, financial aid, and safety.  
+        📖 [Explore Schemes List](https://wcd.nic.in/schemes-listing)  
+        📢 महिला सशक्तिकरण के लिए कई योजनाएं भारत सरकार द्वारा लागू की गई हैं।
+
+  utter_fallback:
+    - text: |
+        😕 I'm sorry, I didn't understand that.  
+        🤖 Try asking about: divorce, dowry law, domestic violence, or property rights.  
+        🙋‍♀️ उदाहरण: "दहेज कानून क्या है?" या "महिलाओं के तलाक अधिकार"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
